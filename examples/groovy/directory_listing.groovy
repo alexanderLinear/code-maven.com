@@ -1,4 +1,4 @@
-dh = new File('.')
+File dh = new File('.')
 dh.eachFile {
     println(it)
 }
